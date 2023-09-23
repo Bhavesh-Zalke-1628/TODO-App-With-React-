@@ -10,7 +10,7 @@ function TodoForm() {
         setTodos("")
     }
     return (
-        <form onSubmit={add} className="flex">
+        <form onSubmit={addTodo} className="flex">
             <input
                 type="text"
                 placeholder="Write Todo..."
